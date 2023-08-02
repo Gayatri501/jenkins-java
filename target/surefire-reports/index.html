@@ -129,13 +129,14 @@
                   </a> <!-- basePageNavigation(testdemo, Writer@456) -->
                   <span class="method-name">basePageNavigation</span>
                   <span class="parameters">(testdemo, Writer@456)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //li[@class=&apos;liSideMenu fademenu closed&apos;]//i[@class=&apos;icon-arrow&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e804063b-636d-49c2-be76-5d93cb841d98, findElement {using=xpath, value=//button[@class=&apos;confirm&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:5971, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8884, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:5971/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e804063b-636d-49c2-be76-5d93cb841d98
+Command: [46cfda18-a0da-4e5c-8203-a10f72e6e56e, findElement {using=xpath, value=//li[@class=&apos;liSideMenu fademenu closed&apos;]//i[@class=&apos;icon-arrow&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:6054, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14052, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6054/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 46cfda18-a0da-4e5c-8203-a10f72e6e56e
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -147,8 +148,8 @@ Session ID: e804063b-636d-49c2-be76-5d93cb841d98
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.pageObjects.Login_main.clickPopup(Login_main.java:38)
-	at com.cases.userpreference.RemoveFileFavoriteListFunctionality.basePageNavigation(RemoveFileFavoriteListFunctionality.java:48)
+	at com.pageObjects.userpreference.RemoveFileFavoriteListFunctionalityObj.clickTestDemo(RemoveFileFavoriteListFunctionalityObj.java:23)
+	at com.cases.userpreference.RemoveFileFavoriteListFunctionality.basePageNavigation(RemoveFileFavoriteListFunctionality.java:55)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
@@ -219,12 +220,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'basePageNavigation')
 data.setCell(0, 2, 'com.cases.userpreference.RemoveFileFavoriteListFunctionality')
-data.setCell(0, 3, 632);
+data.setCell(0, 3, 995);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 632 ms</span>
+              <span class="suite-total-time">Total running time: 995 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -259,7 +260,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">basePageNavigation(testdemo, Writer@456)</span>
-                <span class="method-start">9966 ms</span>
+                <span class="method-start">4104 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

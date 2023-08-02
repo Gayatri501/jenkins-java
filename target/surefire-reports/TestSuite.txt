@@ -1,15 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.201 s <<< FAILURE! - in TestSuite
-com.cases.userpreference.RemoveFileFavoriteListFunctionality.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 0.751 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-Browsing context has been discarded
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.682 s <<< FAILURE! - in TestSuite
+com.cases.userpreference.RemoveFileFavoriteListFunctionality.basePageNavigation[testdemo, Writer@456](2)  Time elapsed: 1.318 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@class='liSideMenu fademenu closed']//i[@class='icon-arrow']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e804063b-636d-49c2-be76-5d93cb841d98, findElement {using=xpath, value=//button[@class='confirm']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:5971, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8884, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:5971/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e804063b-636d-49c2-be76-5d93cb841d98
-	at com.cases.userpreference.RemoveFileFavoriteListFunctionality.basePageNavigation(RemoveFileFavoriteListFunctionality.java:48)
+Command: [46cfda18-a0da-4e5c-8203-a10f72e6e56e, findElement {using=xpath, value=//li[@class='liSideMenu fademenu closed']//i[@class='icon-arrow']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:6054, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14052, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6054/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 46cfda18-a0da-4e5c-8203-a10f72e6e56e
+	at com.cases.userpreference.RemoveFileFavoriteListFunctionality.basePageNavigation(RemoveFileFavoriteListFunctionality.java:55)
 

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-02T06:26:03Z" name="Suite" finished-at="2023-08-02T06:26:14Z" duration-ms="10787">
+  <suite started-at="2023-08-02T10:24:18Z" name="Suite" finished-at="2023-08-02T10:24:24Z" duration-ms="5471">
     <groups>
     </groups>
-    <test started-at="2023-08-02T06:26:03Z" name="Testng12" finished-at="2023-08-02T06:26:14Z" duration-ms="10787">
+    <test started-at="2023-08-02T10:24:18Z" name="Testng12" finished-at="2023-08-02T10:24:24Z" duration-ms="5471">
       <class name="com.cases.userpreference.RemoveFileFavoriteListFunctionality">
-        <test-method is-config="true" signature="intialize()[pri:0, instance:com.cases.userpreference.RemoveFileFavoriteListFunctionality@a21c74]" started-at="2023-08-02T11:56:03Z" name="intialize" finished-at="2023-08-02T11:56:13Z" duration-ms="9878" status="PASS">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:com.cases.userpreference.RemoveFileFavoriteListFunctionality@21dea711]" started-at="2023-08-02T15:54:18Z" name="intialize" finished-at="2023-08-02T15:54:22Z" duration-ms="4049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.cases.userpreference.RemoveFileFavoriteListFunctionality@a21c74]" started-at="2023-08-02T11:56:13Z" name="basePageNavigation" data-provider="getData" finished-at="2023-08-02T11:56:14Z" duration-ms="632" status="FAIL">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.cases.userpreference.RemoveFileFavoriteListFunctionality@21dea711]" started-at="2023-08-02T15:54:22Z" name="basePageNavigation" data-provider="getData" finished-at="2023-08-02T15:54:23Z" duration-ms="995" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -24,24 +24,26 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[Unable to locate element: //li[@class='liSideMenu fademenu closed']//i[@class='icon-arrow']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e804063b-636d-49c2-be76-5d93cb841d98, findElement {using=xpath, value=//button[@class='confirm']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:5971, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8884, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:5971/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e804063b-636d-49c2-be76-5d93cb841d98]]>
+Command: [46cfda18-a0da-4e5c-8203-a10f72e6e56e, findElement {using=xpath, value=//li[@class='liSideMenu fademenu closed']//i[@class='icon-arrow']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:6054, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14052, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6054/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 46cfda18-a0da-4e5c-8203-a10f72e6e56e]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //li[@class='liSideMenu fademenu closed']//i[@class='icon-arrow']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e804063b-636d-49c2-be76-5d93cb841d98, findElement {using=xpath, value=//button[@class='confirm']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:5971, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8884, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:5971/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e804063b-636d-49c2-be76-5d93cb841d98
+Command: [46cfda18-a0da-4e5c-8203-a10f72e6e56e, findElement {using=xpath, value=//li[@class='liSideMenu fademenu closed']//i[@class='icon-arrow']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:6054, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14052, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:6054/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 46cfda18-a0da-4e5c-8203-a10f72e6e56e
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -58,8 +60,8 @@ Session ID: e804063b-636d-49c2-be76-5d93cb841d98
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.pageObjects.Login_main.clickPopup(Login_main.java:38)
-	at com.cases.userpreference.RemoveFileFavoriteListFunctionality.basePageNavigation(RemoveFileFavoriteListFunctionality.java:48)
+	at com.pageObjects.userpreference.RemoveFileFavoriteListFunctionalityObj.clickTestDemo(RemoveFileFavoriteListFunctionalityObj.java:23)
+	at com.cases.userpreference.RemoveFileFavoriteListFunctionality.basePageNavigation(RemoveFileFavoriteListFunctionality.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -74,7 +76,7 @@ Session ID: e804063b-636d-49c2-be76-5d93cb841d98
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
