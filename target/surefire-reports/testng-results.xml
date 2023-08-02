@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-01T09:20:38Z" name="Suite" finished-at="2023-08-01T09:20:56Z" duration-ms="18780">
+  <suite started-at="2023-08-02T06:26:03Z" name="Suite" finished-at="2023-08-02T06:26:14Z" duration-ms="10787">
     <groups>
     </groups>
-    <test started-at="2023-08-01T09:20:38Z" name="Testng12" finished-at="2023-08-01T09:20:56Z" duration-ms="18780">
+    <test started-at="2023-08-02T06:26:03Z" name="Testng12" finished-at="2023-08-02T06:26:14Z" duration-ms="10787">
       <class name="com.cases.userpreference.RemoveFileFavoriteListFunctionality">
-        <test-method is-config="true" signature="intialize()[pri:0, instance:com.cases.userpreference.RemoveFileFavoriteListFunctionality@21dea711]" started-at="2023-08-01T14:50:38Z" name="intialize" finished-at="2023-08-01T14:50:56Z" duration-ms="17864" status="PASS">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:com.cases.userpreference.RemoveFileFavoriteListFunctionality@a21c74]" started-at="2023-08-02T11:56:03Z" name="intialize" finished-at="2023-08-02T11:56:13Z" duration-ms="9878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.cases.userpreference.RemoveFileFavoriteListFunctionality@21dea711]" started-at="2023-08-01T14:50:56Z" name="basePageNavigation" data-provider="getData" finished-at="2023-08-01T14:50:56Z" duration-ms="379" status="FAIL">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.cases.userpreference.RemoveFileFavoriteListFunctionality@a21c74]" started-at="2023-08-02T11:56:13Z" name="basePageNavigation" data-provider="getData" finished-at="2023-08-02T11:56:14Z" duration-ms="632" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -24,26 +24,24 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Unable to locate element: //button[@class='confirm']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[Browsing context has been discarded
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [44af0a54-3b94-41d7-8e05-f9312dbc8aa3, findElement {using=xpath, value=//button[@class='confirm']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:11648, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14252, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11648/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 44af0a54-3b94-41d7-8e05-f9312dbc8aa3]]>
+Command: [e804063b-636d-49c2-be76-5d93cb841d98, findElement {using=xpath, value=//button[@class='confirm']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:5971, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8884, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:5971/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e804063b-636d-49c2-be76-5d93cb841d98]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='confirm']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [44af0a54-3b94-41d7-8e05-f9312dbc8aa3, findElement {using=xpath, value=//button[@class='confirm']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:11648, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14252, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:11648/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 44af0a54-3b94-41d7-8e05-f9312dbc8aa3
+Command: [e804063b-636d-49c2-be76-5d93cb841d98, findElement {using=xpath, value=//button[@class='confirm']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.3, moz:accessibilityChecks: false, moz:buildID: 20230726201356, moz:debuggerAddress: 127.0.0.1:5971, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8884, moz:profile: C:\Users\GAYATR~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:5971/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e804063b-636d-49c2-be76-5d93cb841d98
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -76,7 +74,7 @@ Session ID: 44af0a54-3b94-41d7-8e05-f9312dbc8aa3
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
